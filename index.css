@@ -1,0 +1,91 @@
+html {
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: grey;;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.container {
+	text-align: center;
+	background-color: black;
+	padding: 0;
+}
+
+.jumbotron {
+	background-color: black;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.jumbotron img {
+	height: 113px;
+	width: 150px;
+}
+
+.big-title h1 {
+	color: #ffffff;
+	font-weight: 300;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.nav-item {
+	padding: 10px 50px;
+}
+
+.nav-item:hover {
+	background-color: red;
+}
+
+.nav-link {
+	color: #ffffff;
+}
+
+.content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.welcome {
+	background-color: #ffffff;
+	padding: 20px 20px 100px 20px;
+}
+
+.sidebar {
+	color: #ffffff;
+	padding: 0 20px;
+}
+
+.sidebar-header {
+	padding: 20px 0;
+	text-align: left;
+	font-weight: 200;
+}
+
+.lorem {
+	font-weight: 100;
+}
+
+.footer {
+	background-color: purple;
+	text-align: left;
+}
+
+.footer-label {
+	color: #ffffff;
+	padding: 30px;
+	font-weight: 200;
+}
